@@ -14,7 +14,7 @@ example_conversations:
     - user: bob
       text: Have you watch any movies lately?
     - user: Lenard
-      text: Yeah I just watched Gerar Depardieu's latest movie
+      text: Yeah I just watched Gerard Depardieu's latest movie
     - user: bob
       text: Oh cool, is it any good ?
     - user: Lenard
