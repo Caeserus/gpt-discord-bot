@@ -51,9 +51,9 @@ async def generate_completion_response(
         response = openai.Completion.create(
             engine="text-davinci-003",
             prompt=rendered,
-            temperature=1.0,
-            top_p=0.9,
-            max_tokens=1024,
+            temperature=10.0,
+            top_p=0.8,
+            max_tokens=4096,
             stop=["<|endoftext|>"],
         )
         reply = response.choices[0].text.strip()
